@@ -19,6 +19,9 @@ const config = {
     },
     extend: {
       colors: {
+        "primary-green": "#80AF81",
+        "primary-dark-green": "#508D4E",
+        "primary-golden": "#D8AD68",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -71,6 +74,10 @@ const config = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      fontFamily: {
+        italiana: ["'Italiana'", "serif"],
+        satoshi: ['Satoshi', 'sans-serif'],
       },
     },
   },
