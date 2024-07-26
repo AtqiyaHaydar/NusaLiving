@@ -25,7 +25,7 @@ const Navbar = () => {
         variants={fadeDownVariants}
         transition={{ duration: 0.75 }}
     >
-      <nav className='wrapper w-full py-6 px-16 text-white flex items-center justify-between'>
+      <nav className='hidden wrapper w-full py-6 px-16 text-white md:flex items-center justify-between'>
         <div className='flex justify-center items-center gap-6'>
           <h1>
             <Link href="/" className='flex gap-x-2 items-center font-bold'>
