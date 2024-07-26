@@ -7,11 +7,24 @@ import { navItems } from '@/lib/constants';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 
+import { motion } from 'framer-motion';
+
+const fadeDownVariants = {
+  hidden: { opacity: 0, y: -20 },
+  visible: { opacity: 1, y: 0 }
+};
+
 const Navbar = () => {
   const pathname = usePathname()
 
   return (
-    <header className='w-full fixed top-2 z-20'>
+    <motion.header 
+      className='w-full fixed top-2 z-20'
+      initial="hidden"
+        animate="visible"
+        variants={fadeDownVariants}
+        transition={{ duration: 0.75 }}
+    >
       <nav className='wrapper w-full py-6 px-16 text-white flex items-center justify-between'>
         <div className='flex justify-center items-center gap-6'>
           <h1>
@@ -29,7 +42,7 @@ const Navbar = () => {
           Masuk <LogIn className='w-5 h-5' />
         </Button>
       </nav>
-    </header>
+    </motion.header>
   )
 }
 
