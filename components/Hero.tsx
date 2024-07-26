@@ -18,7 +18,7 @@ const Hero = () => {
       <Image 
         src={IKN}
         alt="Ibu Kota Nusantara"
-        className='w-full h-[650px] object-cover rounded-[36px] p-4 md:p-0 absolute top-0 left-0 -z-20'
+        className='w-full h-[650px] object-cover rounded-[48px] p-4 md:p-0 absolute top-0 left-0 -z-20'
       />
       <motion.div 
         initial="hidden"
