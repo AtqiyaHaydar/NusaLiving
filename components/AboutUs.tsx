@@ -8,9 +8,9 @@ const aboutUsWord = "NusaLiving didirikan dengan visi untuk menciptakan kehidupa
 const AboutUs = () => {
   return (
     <div className='wrapper w-full flex flex-col md:flex-row justify-between gap-x-8 items-start'>
-      <h3 className='w-[350px]'>Tentang Kami</h3>
+      <h3 className='w-[250px] hidden md:block'>Tentang Kami</h3>
       <div className='w-full'>
-        <TextGenerateEffect words={aboutUsWord} />
+        <TextGenerateEffect className='text-center md:text-start' words={aboutUsWord} />
       </div>
     </div>
   )
