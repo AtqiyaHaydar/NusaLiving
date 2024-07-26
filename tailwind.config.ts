@@ -22,6 +22,7 @@ const config = {
         "primary-green": "#80AF81",
         "primary-dark-green": "#508D4E",
         "primary-golden": "#D8AD68",
+        "primary-black": "#1C1C1C",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -76,7 +77,6 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        italiana: ["'Italiana'", "serif"],
         satoshi: ['Satoshi', 'sans-serif'],
       },
     },

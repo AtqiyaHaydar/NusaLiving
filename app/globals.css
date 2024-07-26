@@ -1,5 +1,3 @@
-@import url('https:/.googleapis.com/css2?family=Italiana&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -61,6 +59,11 @@
   }
 }
 
+@font-face {
+  font-family: 'Italiana';
+  src: url('../public/italiana/Italiana-Regular.ttf');
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -70,6 +73,9 @@
   }
   .wrapper {
     @apply max-w-7xl w-full mx-auto px-4
+  }
+  .font-italiana-regular {
+    font-family: Italiana;
   }
 }
 
