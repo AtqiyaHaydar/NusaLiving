@@ -6,8 +6,16 @@ import { LogIn, House } from 'lucide-react';
 import { navItems } from '@/lib/constants';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-
+import { Menu } from 'lucide-react';
 import { motion } from 'framer-motion';
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 
 const fadeDownVariants = {
   hidden: { opacity: 0, y: -20 },
@@ -41,6 +49,21 @@ const Navbar = () => {
         <Button variant={"outline"} className='text-primary-black rounded-full flex items-center gap-x-2 hover:gap-x-4 transition-all w-[125px]'>
           Masuk <LogIn className='w-5 h-5' />
         </Button>
+      </nav>
+      <nav className='flex md:hidden px-4 py-8 text-white justify-between items-center bg-white/25 backdrop-blur-sm fixed top-0 left-0 w-full'>
+        <h1>
+          <Link href="/" className='flex gap-x-2 items-center font-bold'>
+            <House className='w-5 h-5' /> NusaLiving
+          </Link>
+        </h1>
+        <Sheet>
+          <SheetTrigger>
+            <Menu />
+          </SheetTrigger>
+          <SheetContent>
+
+          </SheetContent>
+        </Sheet>
       </nav>
     </motion.header>
   )
