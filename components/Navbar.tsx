@@ -50,7 +50,7 @@ const Navbar = () => {
           Masuk <LogIn className='w-5 h-5' />
         </Button>
       </nav>
-      <nav className='flex md:hidden px-4 py-8 text-white justify-between items-center bg-white/25 backdrop-blur-sm fixed top-0 left-0 w-full'>
+      <div className='flex md:hidden px-4 py-8 text-white justify-between items-center bg-white/25 backdrop-blur-sm fixed top-0 left-0 w-full'>
         <h1>
           <Link href="/" className='flex gap-x-2 items-center font-bold'>
             <House className='w-5 h-5' /> NusaLiving
@@ -60,11 +60,18 @@ const Navbar = () => {
           <SheetTrigger>
             <Menu />
           </SheetTrigger>
-          <SheetContent>
-
+          <SheetContent className='w-full h-full flex flex-col items-center justify-center gap-8'>
+            <h1 className='text-xl font-bold text-primary-green'>NusaLiving</h1>
+            <ul className='flex flex-col gap-8 items-center'>
+              {navItems.map(item => (
+                <Link href={item.href}>
+                  {item.label}
+                </Link>
+              ))}
+            </ul>
           </SheetContent>
         </Sheet>
-      </nav>
+      </div>
     </motion.header>
   )
 }
