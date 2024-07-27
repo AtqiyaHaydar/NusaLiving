@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Button } from './ui/button'
 import { LogIn, House } from 'lucide-react';
 import { navItems } from '@/lib/constants';
@@ -11,9 +11,6 @@ import { motion } from 'framer-motion';
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
 
@@ -24,10 +21,26 @@ const fadeDownVariants = {
 
 const Navbar = () => {
   const pathname = usePathname()
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+      console.log(scrollY)
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const textColorClass = scrollY > 650 ? 'text-black' : 'text-white';
 
   return (
     <motion.header 
-      className='w-full fixed top-2 z-20'
+      className={`w-full fixed top-2 z-20 ${textColorClass}`}
       initial="hidden"
         animate="visible"
         variants={fadeDownVariants}
