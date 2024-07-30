@@ -204,11 +204,17 @@ export const CloseIcon = () => {
   );
 };
 
+import BahasaInggris from "@/public/education/BahasaInggris.svg"
+import Literasi from "@/public/education/Literasi.svg"
+import Matematika from "@/public/education/Matematika.svg"
+import Motivasi from "@/public/education/Motivasi.svg"
+import PeranTeknologi from "@/public/education/PeranTeknologi.svg"
+
 const cards = [
   {
     description: "Belajar Bahasa Inggris",
     title: "Tips Belajar Bahasa Inggris",
-    src: "/path/to/image1.jpg", // ganti dengan path yang sesuai
+    src: BahasaInggris,
     ctaText: "Baca",
     ctaLink: "https://contoh.com/tips-belajar-bahasa-inggris",
     content: () => {
@@ -228,7 +234,7 @@ const cards = [
   {
     description: "Matematika",
     title: "Cara Mudah Memahami Matematika",
-    src: "/path/to/image2.jpg", // ganti dengan path yang sesuai
+    src: Matematika,
     ctaText: "Baca",
     ctaLink: "https://contoh.com/cara-mudah-matematika",
     content: () => {
@@ -246,7 +252,7 @@ const cards = [
   {
     description: "Teknologi Informasi",
     title: "Peran Teknologi dalam Pendidikan",
-    src: "/path/to/image3.jpg", // ganti dengan path yang sesuai
+    src: PeranTeknologi,
     ctaText: "Baca",
     ctaLink: "https://contoh.com/peran-teknologi-pendidikan",
     content: () => {
@@ -266,7 +272,7 @@ const cards = [
   {
     description: "Literasi",
     title: "Pentingnya Literasi di Era Digital",
-    src: "/path/to/image4.jpg", // ganti dengan path yang sesuai
+    src: Literasi,
     ctaText: "Baca",
     ctaLink: "https://contoh.com/pentingnya-literasi-digital",
     content: () => {
@@ -285,7 +291,7 @@ const cards = [
   {
     description: "Motivasi Belajar",
     title: "Cara Meningkatkan Motivasi Belajar",
-    src: "/path/to/image5.jpg", // ganti dengan path yang sesuai
+    src: Motivasi,
     ctaText: "Baca",
     ctaLink: "https://contoh.com/meningkatkan-motivasi-belajar",
     content: () => {

@@ -59,7 +59,7 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-        <Button variant={"outline"} className='text-primary-black rounded-full flex items-center gap-x-2 hover:gap-x-4 transition-all w-[125px]'>
+        <Button variant={"outline"} className='text-primary-black hover:bg-green-500 hover:text-white hover:border-none rounded-full flex items-center gap-x-2 hover:gap-x-4 transition-all w-[125px]'>
           Masuk <LogIn className='w-5 h-5' />
         </Button>
       </nav>
