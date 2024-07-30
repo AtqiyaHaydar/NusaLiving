@@ -3,6 +3,7 @@
 import React from 'react'
 import Education from "@/public/services/Pendidikan.svg"
 import ServiceHero from '@/components/reusable/ServiceHero'
+import { Pendidikan } from '@/components/Pendidikan'
 
 const PendidikanPage = () => {
   return (
@@ -12,6 +13,9 @@ const PendidikanPage = () => {
         subheading='Sekolah, Universitas, dan Program Pendidikan Terdepan'
         image={Education}
       />
+      <div className='wrapper flex items-center justify-center w-full h-full'>
+        <Pendidikan />
+      </div>
     </div>
   )
 }

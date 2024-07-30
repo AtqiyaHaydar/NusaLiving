@@ -85,7 +85,6 @@ const BeritaPage = () => {
                 </div>
               </DialogContent>
             </Dialog>
-        
           </div>
         ))}
         </div>

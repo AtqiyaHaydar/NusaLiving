@@ -13,3 +13,4 @@ Live Website : https://nusa-living.vercel.app/
 ###
 
 <p align="right">@AtqiyaHaydar | 🌱 Seleksi Calon Asisten Lab RPL - OHL 2024</p>
+<p align="right">Built with Shadcn UI and Aceternity UI 🤍</p>
