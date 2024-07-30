@@ -3,6 +3,15 @@
 import React from 'react'
 import News from "@/public/services/Berita.svg"
 import ServiceHero from '@/components/reusable/ServiceHero'
+import { newsItems } from '@/lib/constants'
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 const BeritaPage = () => {
   return (
@@ -12,6 +21,11 @@ const BeritaPage = () => {
         subheading='Informasi Terkini Tentang Pembangunan dan Perkembangan IKN'
         image={News}
       />
+      {newsItems.map(item => (
+        <Card key={item.judul}>
+
+        </Card>
+      ))}
     </div>
   )
 }

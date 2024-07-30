@@ -36,3 +36,41 @@ export const navItems = [
     description: "Akses kursus online, informasi tentang sekolah, dan pendaftaran untuk program pendidikan untuk meningkatkan keterampilan dan pengetahuan."
   },
 ]
+
+export const newsItems = [
+  {
+    judul: "Pembangunan Infrastruktur di IKN Dimulai",
+    deskripsi: "Proyek pembangunan infrastruktur dasar di IKN telah resmi dimulai dengan serangkaian upacara.",
+    isiArtikel: "Proyek pembangunan infrastruktur dasar di IKN telah resmi dimulai. Upacara peletakan batu pertama dilakukan oleh Presiden RI dihadiri oleh para pejabat tinggi dan masyarakat setempat. Pembangunan ini mencakup jalan utama, jembatan, dan instalasi air bersih yang diharapkan dapat selesai dalam dua tahun ke depan.\n\nMenurut Menteri Pekerjaan Umum dan Perumahan Rakyat, pembangunan ini akan membuka banyak lapangan pekerjaan dan memberikan dampak positif bagi perekonomian daerah. \"Ini adalah langkah awal menuju kota yang modern dan berkelanjutan,\" ujarnya.",
+    tanggalTerbit: "2024-07-30",
+    pengarang: "Ahmad Setiawan"
+  },
+  {
+    judul: "Pameran Teknologi Hijau di IKN",
+    deskripsi: "IKN menjadi tuan rumah pameran teknologi hijau terbesar di Indonesia, menampilkan inovasi terbaru dalam teknologi ramah lingkungan.",
+    isiArtikel: "IKN menjadi tuan rumah pameran teknologi hijau terbesar di Indonesia yang digelar minggu ini. Acara ini dihadiri oleh lebih dari 200 perusahaan dari seluruh dunia yang menampilkan inovasi terbaru dalam teknologi ramah lingkungan, termasuk energi terbarukan, transportasi listrik, dan bangunan berkelanjutan.\n\nGubernur IKN mengatakan, \"Pameran ini merupakan kesempatan bagi kita untuk melihat dan belajar dari teknologi terbaru yang dapat membantu kita membangun kota yang lebih hijau dan berkelanjutan.\" Acara ini juga diharapkan dapat menarik investor untuk berinvestasi di IKN.",
+    tanggalTerbit: "2024-07-29",
+    pengarang: "Dewi Lestari"
+  },
+  {
+    judul: "Kegiatan Sosial di IKN untuk Mendukung Pendidikan",
+    deskripsi: "Komunitas di IKN mengadakan serangkaian kegiatan sosial untuk mendukung pendidikan anak-anak setempat.",
+    isiArtikel: "Komunitas di IKN mengadakan serangkaian kegiatan sosial untuk mendukung pendidikan anak-anak setempat. Kegiatan ini termasuk penggalangan dana, penyediaan buku dan alat tulis, serta bimbingan belajar gratis yang diberikan oleh sukarelawan.\n\nSalah satu panitia penyelenggara, Siti Nurhayati, menyatakan bahwa kegiatan ini bertujuan untuk memberikan kesempatan belajar yang lebih baik bagi anak-anak di IKN. \"Kami berharap dapat membantu anak-anak mencapai cita-cita mereka dan menjadi generasi penerus yang berkualitas,\" ujar Siti.",
+    tanggalTerbit: "2024-07-28",
+    pengarang: "Budi Santoso"
+  },
+  {
+    judul: "Pembangunan Taman Kota Ramah Lingkungan di IKN",
+    deskripsi: "Pemerintah mengumumkan rencana pembangunan taman kota yang ramah lingkungan sebagai bagian dari upaya menciptakan ruang hijau di IKN.",
+    isiArtikel: "Pemerintah mengumumkan rencana pembangunan taman kota yang ramah lingkungan sebagai bagian dari upaya menciptakan ruang hijau di IKN. Taman ini akan dilengkapi dengan berbagai fasilitas seperti area bermain anak, jalur jogging, dan taman bunga yang indah.\n\nKepala Dinas Lingkungan Hidup IKN mengatakan bahwa taman ini dirancang untuk meningkatkan kualitas hidup warga dan menjadi tempat rekreasi yang menyenangkan. \"Kami ingin menciptakan lingkungan yang sehat dan hijau untuk semua warga IKN,\" ujarnya.",
+    tanggalTerbit: "2024-07-27",
+    pengarang: "Rina Andriani"
+  },
+  {
+    judul: "Festival Seni Budaya di IKN Menarik Ribuan Pengunjung",
+    deskripsi: "Festival seni budaya pertama di IKN sukses menarik ribuan pengunjung dari berbagai daerah.",
+    isiArtikel: "Festival seni budaya pertama di IKN sukses menarik ribuan pengunjung dari berbagai daerah. Acara ini menampilkan berbagai pertunjukan seni tradisional dan modern, pameran kerajinan tangan, serta kuliner khas Nusantara.\n\nMenurut panitia, festival ini bertujuan untuk memperkenalkan kekayaan budaya Indonesia kepada masyarakat IKN dan sekitarnya. \"Kami sangat senang melihat antusiasme masyarakat dalam mendukung dan melestarikan seni budaya kita,\" kata salah satu panitia.",
+    tanggalTerbit: "2024-07-26",
+    pengarang: "Yusuf Maulana"
+  }
+]
