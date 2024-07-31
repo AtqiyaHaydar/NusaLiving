@@ -12,8 +12,8 @@ const fadeUpVariants = {
 const ServiceHero = ({ 
   heading, subheading, image 
 }:{
-  heading: string,
-  subheading: string,
+  heading: string | undefined,
+  subheading: string | undefined,
   image: string,
 }) => {
   return (

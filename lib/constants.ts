@@ -116,45 +116,50 @@ import PeranTeknologi from "@/public/education/PeranTeknologi.svg"
 
 export const educationData = [
   {
-    path: "inggris",
+    path: "/pendidikan/inggris",
     title: "Tips Belajar Bahasa Inggris",
     src: BahasaInggris,
+    deskripsi: "Panduan praktis untuk meningkatkan kemampuan Bahasa Inggris Anda dengan pendekatan yang menyenangkan.",
     artikel: `
       Belajar Bahasa Inggris bisa menjadi lebih menyenangkan dengan pendekatan yang tepat. Cobalah untuk menonton film atau mendengarkan musik dalam Bahasa Inggris, baca buku atau artikel yang menarik perhatian Anda, dan praktikkan berbicara dengan teman atau komunitas yang mendukung. 
       Selain itu, aplikasi pembelajaran bahasa seperti Duolingo atau Babbel bisa menjadi alat bantu yang efektif. Ingat, konsistensi adalah kunci!
     `
   },
   {
-    path: "matematika",
+    path: "/pendidikan/matematika",
     title: "Cara Mudah Memahami Matematika",
     src: Matematika,
+    deskripsi: "Tips dan trik untuk memahami konsep Matematika dengan mudah dan efektif.",
     artikel: `
       Memahami Matematika bisa menjadi tantangan, namun dengan metode yang tepat, Anda bisa menguasainya. Mulailah dengan memahami konsep dasar sebelum melangkah ke topik yang lebih kompleks. 
       Gunakan visualisasi dan alat bantu seperti diagram atau grafik untuk membantu memahami konsep. Latihan soal secara rutin juga sangat penting untuk meningkatkan pemahaman dan keterampilan Anda.
     `
   },
   {
-    path: "teknologi",
+    path: "/pendidikan/teknologi",
     title: "Peran Teknologi dalam Pendidikan",
     src: PeranTeknologi,
+    deskripsi: "Bagaimana teknologi mempengaruhi dan memperbaiki metode pembelajaran di era digital.",
     artikel: `
       Teknologi telah membawa banyak perubahan positif dalam dunia pendidikan. Dari pembelajaran jarak jauh hingga penggunaan aplikasi edukasi, teknologi memudahkan akses ke sumber belajar yang lebih luas. 
       Guru dan siswa kini bisa berkolaborasi lebih efektif melalui platform digital seperti Google Classroom atau Microsoft Teams. Penggunaan teknologi juga memungkinkan penyesuaian metode pembelajaran sesuai kebutuhan masing-masing siswa.
     `
   },
   {
-    path: "literasi",
+    path: "/pendidikan/literasi",
     title: "Pentingnya Literasi di Era Digital",
     src: Literasi,
+    deskripsi: "Pentingnya kemampuan literasi digital dalam era informasi dan cara mengembangkannya.",
     artikel: `
       Literasi tidak hanya berarti kemampuan membaca dan menulis, tetapi juga kemampuan memahami dan mengevaluasi informasi yang ditemukan di internet. Di era digital ini, literasi digital sangat penting untuk memastikan informasi yang kita terima akurat dan dapat dipercaya. 
       Ajarkan anak-anak dan remaja untuk selalu memeriksa sumber informasi dan berpikir kritis terhadap apa yang mereka baca di media sosial.
     `
   },
   {
-    path: "motivasi",
+    path: "/pendidikan/motivasi",
     title: "Cara Meningkatkan Motivasi Belajar",
     src: Motivasi,
+    deskripsi: "Strategi untuk menjaga dan meningkatkan motivasi belajar agar tetap produktif.",
     artikel: `
       Menjaga motivasi belajar bisa menjadi tantangan, terutama di masa-masa sulit. Tetapkan tujuan belajar yang jelas dan realistis, ciptakan lingkungan belajar yang nyaman, dan gunakan metode belajar yang menyenangkan seperti permainan edukasi atau proyek kreatif. 
       Jangan lupa untuk memberikan reward kepada diri sendiri setelah mencapai target belajar tertentu. Dukungan dari keluarga dan teman juga sangat penting untuk tetap termotivasi.
