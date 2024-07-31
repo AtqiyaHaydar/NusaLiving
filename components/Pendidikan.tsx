@@ -216,7 +216,7 @@ const cards = [
     title: "Tips Belajar Bahasa Inggris",
     src: BahasaInggris,
     ctaText: "Baca",
-    ctaLink: "https://contoh.com/tips-belajar-bahasa-inggris",
+    ctaLink: "/pendidikan/inggris",
     content: () => {
       return (
         <p>
@@ -236,7 +236,7 @@ const cards = [
     title: "Cara Mudah Memahami Matematika",
     src: Matematika,
     ctaText: "Baca",
-    ctaLink: "https://contoh.com/cara-mudah-matematika",
+    ctaLink: "/pendidikan/matematika",
     content: () => {
       return (
         <p>
@@ -254,7 +254,7 @@ const cards = [
     title: "Peran Teknologi dalam Pendidikan",
     src: PeranTeknologi,
     ctaText: "Baca",
-    ctaLink: "https://contoh.com/peran-teknologi-pendidikan",
+    ctaLink: "/pendidikan/teknologi",
     content: () => {
       return (
         <p>
@@ -274,7 +274,7 @@ const cards = [
     title: "Pentingnya Literasi di Era Digital",
     src: Literasi,
     ctaText: "Baca",
-    ctaLink: "https://contoh.com/pentingnya-literasi-digital",
+    ctaLink: "/pendidikan/literasi",
     content: () => {
       return (
         <p>
@@ -293,7 +293,7 @@ const cards = [
     title: "Cara Meningkatkan Motivasi Belajar",
     src: Motivasi,
     ctaText: "Baca",
-    ctaLink: "https://contoh.com/meningkatkan-motivasi-belajar",
+    ctaLink: "/pendidikan/motivasi",
     content: () => {
       return (
         <p>

@@ -18,7 +18,7 @@ const LembagaPendidikan = () => {
               className='rounded-lg h-[150px] md:h-[100px] w-full md:w-[200px] object-cover shadow-md'
             />
             <div className='text-start w-full'>
-              <h5>{item.judul}</h5>
+              <h5 className='text-[18px]'>{item.judul}</h5>
               <p className='text-muted-foreground text-sm '>{item.deskripsi}</p>
             </div>
           </li>
