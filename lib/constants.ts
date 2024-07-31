@@ -85,3 +85,25 @@ export const newsItems = [
     gambarMiniatur: SeniBudaya
   }
 ]
+
+import Universitas from "@/public/institution/Universitas.svg"
+import Institusi from "@/public/institution/Institusi.svg"
+import InstitusiKesehatan from "@/public/institution/Kesehatan.svg"
+
+export const institutionItems = [
+  {
+      judul: "Universitas Nusantara",
+      deskripsi: "Universitas Nusantara adalah salah satu universitas terkemuka di Ibu Kota Negara, menawarkan berbagai program studi yang berfokus pada teknologi, ilmu pengetahuan, dan seni.",
+      gambarMiniatur: Universitas,
+  },
+  {
+      judul: "Institut Teknologi Nusantara",
+      deskripsi: "Institut Teknologi Nusantara (ITN) adalah institusi pendidikan tinggi yang mengkhususkan diri dalam bidang teknologi dan rekayasa.",
+      gambarMiniatur: Institusi,
+  },
+  {
+      judul: "Akademi Kesehatan Nusantara",
+      deskripsi: "Akademi Kesehatan Nusantara adalah lembaga pendidikan yang menawarkan program diploma dan sarjana dalam bidang kesehatan, termasuk keperawatan, kebidanan, dan farmasi.",
+      gambarMiniatur: InstitusiKesehatan,
+  }
+]

@@ -14,11 +14,9 @@ const PendidikanPage = () => {
         subheading='Sekolah, Universitas, dan Program Pendidikan Terdepan'
         image={Education}
       />
-      <div className='wrapper flex flex-col lg:flex-row gap-6 items-center justify-between w-full h-full' data-aos="fade-up">
+      <div className='wrapper flex flex-col lg:flex-row gap-6 items-center lg:items-start justify-between w-full h-full' data-aos="fade-up">
         <Pendidikan />
-        <div className='relative w-full border rounded-lg h-full p-4'>
-          <LembagaPendidikan />
-        </div>
+        <LembagaPendidikan />
       </div>
     </div>
   )

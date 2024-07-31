@@ -125,7 +125,7 @@ export function Pendidikan() {
           </div>
         ) : null}
       </AnimatePresence>
-      <ul className="max-w-2xl mx-auto w-full gap-4 border rounded-lg">
+      <ul className="mx-auto h-full w-full gap-4 border rounded-lg">
         {cards.map((card, index) => (
           <motion.div
             layoutId={`card-${card.title}-${id}`}
