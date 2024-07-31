@@ -15,9 +15,7 @@ const PendidikanPage = () => {
         image={Education}
       />
       <div className='wrapper flex flex-col lg:flex-row gap-6 items-center justify-between w-full h-full' data-aos="fade-up">
-        <div className='relative w-full border rounded-lg h-full'>
-          <Pendidikan />
-        </div>
+        <Pendidikan />
         <div className='relative w-full border rounded-lg h-full p-4'>
           <LembagaPendidikan />
         </div>
