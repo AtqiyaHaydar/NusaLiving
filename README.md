@@ -5,6 +5,7 @@
 ### Informations
 Author : Atqiya Haydar Luqman (13522163) <br>
 Live Website : https://nusa-living.vercel.app/
+Document : https://drive.google.com/file/d/1100OfCvqDEucoRVGdCFNV4YiVxgFZRHF/view?usp=sharing
 
 ###
 
